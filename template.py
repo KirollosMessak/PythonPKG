@@ -4,7 +4,8 @@ import logging
 from venv import logger
 
 files = [
-    '.github/workflows/.gitkeep',
+    '.github/workflows/.gitkeep',# GitHub Actions workflows are stored.
+     # These workflows automate tasks like CI/CD, testing, and deployment
     'src/__init__.py',
     'src/components/__init__.py',
     'src/components/data_ingestion.py',
@@ -18,8 +19,8 @@ files = [
     'src/utils/utils.py',
     'src/logger/logging.py',# it's used to configure logging for Python project
     'src/exeptions/exception.py',#used to define custom exception classes for error handling in a Python project.
-    'tests/unit_testing/__init__.py',
-    'tests/unit_testing/integration/__init__.py',
+    'tests/unit/__init__.py',
+    'tests/unit/integration/__init__.py',
     'init_setup.sh',
     'requirements.txt',
     'requirements_dev.txt',
