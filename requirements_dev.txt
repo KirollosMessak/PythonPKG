@@ -1,0 +1,29 @@
+pymongo
+pymongo[srv]
+dnspython
+pandas
+numpy
+ensure
+
+
+# dev requirements -
+
+pytest==7.1.3 #For running unit tests
+tox==3.25.1 #
+black==22.8.0
+flake8==5.0.4
+mypy==0.971
+
+"""
+pytest (7.1.3) – For running unit tests.
+
+tox (3.25.1) – For automating testing across multiple environments.
+
+black (22.8.0) – For automatic code formatting.
+
+flake8 (5.0.4) – For enforcing Python style guide compliance.
+
+mypy (0.971) – For static type checking.
+"""
+
+-e .
